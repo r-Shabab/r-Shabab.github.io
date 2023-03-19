@@ -1,0 +1,251 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* NAVBAR */
+.navbar {
+    background-color: #fff;
+    
+}
+
+.navbar-brand {
+    color: #444;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #444;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #050505;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #050505;
+}
+
+
+
+
+/* HOME */
+.home_blob {
+    width: 400px;
+    fill: #1c1e31;
+}
+
+.home_blob_img {
+    width: 170px;
+}
+
+/* SKILLS */
+ol,
+ul,
+li {
+    list-style-type: none;
+}
+.progress_bar {
+    padding:50px 0px;
+}
+.progress_icon{
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.progress_bar h3{
+    font-size: 16px;
+    text-transform:uppercase;
+}
+.progress_bar h3 span{
+    float: right;
+    padding-bottom: 4px;
+}
+.progress_bar ul li {
+    padding: 10px 30px;
+}
+.bar{
+    height: 6px;
+    background-color: rgba(170,170,170, 0.34);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bar span{
+    height: 6px;
+    float: left;
+    border-radius: 5px;
+}
+.html{
+    background: #d84d2c;
+    width: 90%;
+    animation: html 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    background: #2c68d8;
+    width: 70%;
+    animation: css 3s;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.bootstrap{
+    background: #563d7c;
+    width: 80%;
+    animation: bootstrap 3s;
+}
+
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.js{
+    background: #f0db4f;
+    width: 70%;
+    animation: js 3s;
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.react{
+    background: #7cc5d9;
+    width: 50%;
+    animation: react 3s;
+}
+
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.figma{
+    background: #b67148;
+    width: 80%;
+    animation: figma 3s;
+}
+
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.illustrator{
+    background: #FF9A00;
+    width: 60%;
+    animation: illustrator 3s;
+}
+
+@keyframes illustrator {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.sketch{
+    background: #F7B500;
+    width: 80%;
+    animation: adobexd 3s;
+}
+
+@keyframes sketch {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+/* QUALIFICATION */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+
+ul.timeline:before {
+    content: ' ';
+    background: #000000;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #000000;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+li.timeline-item::before {
+    content: ' ';
+    background: #242424;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* PORTFOLIO */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+

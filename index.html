@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shabab.</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@400;500;600&family=Trispace&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+    <script
+      src="https://kit.fontawesome.com/6f6e8e1141.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand p-3" href="#">Shabab.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- MAIN DISPLAY -->
+    <div class="jumbotron jumbotron-fluid bg-white mx-5 py-5" id="home">
+      <div class="container mt-5 mb-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center order-first order-lg-last">
+            <div class="position-relative mb-5">
+              <svg
+                class="home_blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home_blob_img img-fluid"
+                    x="12"
+                    y="10"
+                    xlink:href="img/shabab_img.png"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h1 class="display-4">Hi, I am Shabab</h1>
+            <h3 class="mb-4">Frontend developer</h3>
+            <p class="lead mb-4">
+              Experienced frontend web developer skilled in creating responsive
+              and user-friendly websites with modern technologies.
+            </p>
+            <a
+              class="m-4"
+              href="https://www.linkedin.com/in/md-rashid-shabab-8b35b7269/"
+              ><i class="fa-brands fa-linkedin-in fa-xl"></i
+            ></a>
+            <a class="m-4" href="https://github.com/r-Shabab"
+              ><i class="fa-brands fa-github fa-xl"></i
+            ></a>
+            <a
+              class="m-4"
+              href="https://www.figma.com/files/user/896360336172892344?fuid=896360336172892344"
+              ><i class="fa-brands fa-figma fa-xl"></i
+            ></a>
+            <br />
+            <a href="#" class="btn btn-primary btn-lg mt-4"
+              >Contact Me <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="container py-5" id="about">
+      <div class="text-center mb-5 mt-5">
+        <h2 class="fw-bold mb-3">About Me</h2>
+        <p class="lead mb-0">My introduction</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img
+            src="/img/web developer animated.gif"
+            class="img-fluid rounded"
+            alt="Shabab"
+          />
+        </div>
+        <div class="col-lg-6">
+          <p class="lead mb-5">
+            As a front-end developer, my passion lies in creating visually
+            appealing, intuitive, and responsive websites. With expertise in
+            modern web technologies such as HTML, CSS, JavaScript, and
+            frameworks like React and Vue.js, I strive to deliver exceptional
+            user experiences that exceed expectations. I am committed to staying
+            up-to-date with the latest industry trends and best practices,
+            enabling me to develop websites that are not only beautiful but also
+            efficient and functional.
+          </p>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <h4 class="mb-0"><strong>03+</strong></h4>
+              <p class="text-muted">
+                Years <br />
+                experience
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <h4 class="mb-0"><strong>10+</strong></h4>
+              <p class="text-muted">
+                Completed <br />
+                projects
+              </p>
+            </div>
+          </div>
+
+          <a
+            href="/cv/Md_Rashid_Shabab_CV.pdf"
+            class="btn btn-primary mt-3"
+            download
+            >Download CV <i class="fa-solid fa-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <div class="container py-5 progress_bar mt-5 mb-5" id="skills">
+      <h2 class="text-center mb-3">Skills</h2>
+      <p class="text-center mb-5">My technical level</p>
+      <div class="row">
+        <div class="col-md-6 mb-4 p-3">
+          <h4 class="mb-3"><b>Frontend Developer</b></h4>
+          <p>More than 3 years</p>
+
+          <ul>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #d84d2c">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h3>HTML<span>%</span> <span class="counter">90</span></h3>
+              <div class="bar"><span class="html"></span></div>
+            </li>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #2c68d8">
+                <i class="fab fa-css3"></i>
+              </div>
+              <h3>CSS<span>%</span> <span class="counter">70</span></h3>
+              <div class="bar"><span class="css"></span></div>
+            </li>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #563d7c">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <h3>BOOTSTRAP<span>%</span> <span class="counter">80</span></h3>
+              <div class="bar"><span class="bootstrap"></span></div>
+            </li>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #f0db4f">
+                <i class="fab fa-js"></i>
+              </div>
+              <h3>JavaScript<span>%</span> <span class="counter">70</span></h3>
+              <div class="bar"><span class="js"></span></div>
+            </li>
+            <li>
+              <div class="progress_icon" style="color: #7cc5d9">
+                <i class="fab fa-react"></i>
+              </div>
+              <h3>React<span>%</span> <span class="counter">50</span></h3>
+              <div class="bar"><span class="react"></span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-4 p-3">
+          <h4 class="mb-3"><b>Designer</b></h4>
+          <p>More than 3 years</p>
+          <ul>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #b67148">
+                <i class="fab fa-figma"></i>
+              </div>
+              <h3>FIGMA<span>%</span> <span class="counter">80</span></h3>
+              <div class="bar"><span class="figma"></span></div>
+            </li>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #ff9a00">
+                <i class="fa-solid fa-bezier-curve"></i>
+              </div>
+              <h3>Illustrator<span>%</span> <span class="counter">60</span></h3>
+              <div class="bar"><span class="illustrator"></span></div>
+            </li>
+            <li class="mb-4">
+              <div class="progress_icon" style="color: #f7b500">
+                <i class="fab fa-sketch"></i>
+              </div>
+              <h3>Sketch<span>%</span> <span class="counter">80</span></h3>
+              <div class="bar"><span class="sketch"></span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUALIFICATION SECTION -->
+    <section class="py-5 mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center mb-3">Qualification</h2>
+            <p class="text-center mb-5">My personal journey</p>
+            <div class="row">
+              <div class="col-lg-7 mx-auto">
+                <ul class="timeline">
+                  <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                    <div class="timeline-arrow"></div>
+                    <h2 class="h5 mb-0">SSC</h2>
+                    <span class="small text-gray"
+                      ><i class="fa fa-clock-o mr-1"></i>2016</span
+                    >
+                    <p class="text-small mt-2 font-weight-light">
+                      Mirpur Bangla High School and College
+                    </p>
+                  </li>
+                  <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                    <div class="timeline-arrow"></div>
+                    <h2 class="h5 mb-0">HSC</h2>
+                    <span class="small text-gray"
+                      ><i class="fa fa-clock-o mr-1"></i>2018</span
+                    >
+                    <p class="text-small mt-2 font-weight-light">
+                      BCIC College
+                    </p>
+                  </li>
+                  <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                    <div class="timeline-arrow"></div>
+                    <h2 class="h5 mb-0">Computer Science and Engineering</h2>
+                    <span class="small text-gray"
+                      ><i class="fa fa-clock-o mr-1"></i>2019-2023</span
+                    >
+                    <p class="text-small mt-2 font-weight-light">
+                      Independant University,Bangladesh
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="py-5" id="portfolio">
+      <div class="container mt-5 mb-5">
+        <h2 class="text-center mb-3">Portfolio</h2>
+        <p class="text-center mb-5">Most recent work</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="/img/E-school.jpeg"
+                class="card-img-top"
+                alt="..."
+                style="object-fit: cover"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title p-3">E-School</h3>
+                <p class="card-text flex-grow-1">
+                  e-school is an online platform that offers a virtual classroom
+                  for students and teachers, allowing them to access educational
+                  resources from anywhere with an internet connection.
+                </p>
+                <a
+                  href="https://eschool1910282.netlify.app/"
+                  class="btn btn-outline-primary mt-auto"
+                  >Demo <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="/img/Food.jpeg"
+                class="card-img-top"
+                alt="..."
+                style="object-fit: cover"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title p-3">Food Delivery</h3>
+                <p class="card-text flex-grow-1">
+                  The food delivery website is an online platform that lets you
+                  order food from local restaurants and get it delivered to your
+                  doorstep.
+                </p>
+                <a
+                  href="https://chefstableshabab.netlify.app/"
+                  class="btn btn-outline-primary mt-auto"
+                  >Demo <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/Recipe.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title p-3">Recipe</h3>
+                <p class="card-text flex-grow-1">
+                  The recipe website lets you input ingredients you have and
+                  shows you recipes you can make with them. It's a great way to
+                  avoid wasting food and get creative with what you have on
+                  hand.
+                </p>
+                <a
+                  href="https://mis455final1910282.netlify.app/"
+                  class="btn btn-outline-primary mt-auto"
+                  >Demo <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <section id="contact" class="py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="/img/contact animated.gif"
+              class="img-fluid rounded"
+              alt="Shabab"
+            />
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <h2 class="section-heading mb-3">Contact Me</h2>
+            <p class="text-center mb-5">Get in touch</p>
+
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-floating controls mb-3">
+                  <input
+                    class="form-control"
+                    id="name"
+                    type="text"
+                    placeholder="Name"
+                    required="required"
+                    data-validation-required-message="Please enter your name."
+                  />
+                  <label for="name">Name</label>
+                  <div
+                    class="invalid-feedback"
+                    data-validation-message="Please enter your name."
+                  ></div>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-floating controls mb-3">
+                  <input
+                    class="form-control"
+                    id="email"
+                    type="email"
+                    placeholder="Email Address"
+                    required="required"
+                    data-validation-required-message="Please enter your email address."
+                  />
+                  <label for="email">Email Address</label>
+                  <div
+                    class="invalid-feedback"
+                    data-validation-message="Please enter a valid email address."
+                  ></div>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-floating controls mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    placeholder="Message"
+                    required="required"
+                    data-validation-required-message="Please enter a message."
+                  ></textarea>
+                  <label for="message">Message</label>
+                  <div
+                    class="invalid-feedback"
+                    data-validation-message="Please enter a message."
+                  ></div>
+                </div>
+              </div>
+              <div id="success"></div>
+              <div class="form-group">
+                <a
+                  type="submit"
+                  class="btn btn-primary btn-xl"
+                  id="sendMessageButton"
+                >
+                  Send Message
+                  <i class="fa-solid fa-paper-plane"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+            <span class="text-muted">Shabab. &copy; 2023</span>
+            <br />
+            <span class="text-muted"
+              >Illustration by
+              <a href="https://icons8.com/illustrations/author/XTPoH093lluQ"
+                >Viktoriya Belinio</a
+              >
+              from <a href="https://icons8.com/illustrations">Ouch!</a></span
+            >
+            <br />
+            <span class="text-muted"
+              >Illustration by
+              <a href="https://icons8.com/illustrations/author/mNCLibjicqSz"
+                >Julia K</a
+              >
+              from <a href="https://icons8.com/illustrations">Ouch!</a></span
+            >
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a
+              href="https://www.facebook.com/profile.php?id=100007791317965"
+              class="text-white me-3"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/um_Shabab" class="text-white me-3"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/r._.shabab/"
+              class="text-white me-3"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/md-rashid-shabab-8b35b7269/"
+              class="text-white"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
